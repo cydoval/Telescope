@@ -1,0 +1,57 @@
+// baseline typography
+html {
+	font-size:10px;
+	-webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    line-height:1.5;
+    @include breakpoint(tablet) {
+	    font-size:8px;
+	}
+	@include breakpoint(mobile) {
+	    font-size:7px;
+	}
+}
+
+a {
+	
+}
+ol {
+	li {
+		
+	}
+}
+ul {
+	li {
+
+	}
+}
+p {
+	line-height:1.625;
+	letter-spacing:.025rem;
+	font-size:1.6rem;
+	font-family:$serif;
+	color:$primary-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:$primary-font;
+	font-family:$sans-serif;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	line-height:1.5;
+	font-family:$sans-serif;
+}
+h1, .h1 {
+}
+h2, .h2 {
+
+}
+h3, .h3 {
+
+}
+h4, .h4 {
+
+}
+h5, .h5 {
+
+}

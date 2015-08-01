@@ -114,6 +114,7 @@ srp@1.0.3
 standard-app-packages@1.0.5
 stylus@1.0.7
 tap:i18n@1.5.0
+telescope-theme-cal@0.1.0
 telescope:api@0.22.2
 telescope:comments@0.22.2
 telescope:core@0.22.2
