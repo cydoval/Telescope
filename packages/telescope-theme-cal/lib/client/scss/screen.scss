@@ -12,15 +12,10 @@
 @import "modules/dialogs";
 @import "modules/user-profile";
 
-@import "dependencies/dependencies";			// variables and mixins
+@import "dependencies/dependencies";		// variables and mixins
 @import "dependencies/foundation";			// common css like headers & footers
 @import "dependencies/navigation";			// navigation css
 @import "dependencies/typography";			// typography
 @import "dependencies/components";			// modular tools like buttons and things
 @import "dependencies/regions";				// regional css like content pages
 @import "dependencies/responsive";			// unique responsive styles
-
-
-body {
-	background-color:orange;
-}

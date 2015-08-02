@@ -24,6 +24,15 @@ Package.onUse(function (api) {
       'lib/client/scss/partials/_tooltips.scss',
       'lib/client/scss/partials/_typography.scss',
 
+      //dependencies
+      'lib/client/scss/dependencies/_dependencies.scss',
+      'lib/client/scss/dependencies/_foundation.scss',
+      'lib/client/scss/dependencies/_navigation.scss',
+      'lib/client/scss/dependencies/_typography.scss',
+      'lib/client/scss/dependencies/_components.scss',
+      'lib/client/scss/dependencies/_regions.scss',
+      'lib/client/scss/dependencies/_responsive.scss',
+
       // screen
       'lib/client/scss/screen.scss'
 
